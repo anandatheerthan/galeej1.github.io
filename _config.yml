@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            Hyde
 tagline:          'A Jekyll theme, with instant search'
 description:      'The popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, now with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>'
-url:              https://github.com/algolia/algoliasearch-jekyll-hyde
+url:              https://github.com/anandatheerthan/galeej1.github.io
 baseurl:          /algoliasearch-jekyll-hyde
 # Travis will install Bundler dependencies in ./vendor, so we need to exclude it
 # otherwise Jekyll will try to build it (and fail)
@@ -30,7 +30,7 @@ paginate:         5
 version:          2.1.0
 
 github:
-    repo:         https://github.com/algolia/algoliasearch-jekyll-hyde
+    repo:         https://github.com/anandatheerthan/galeej1.github.io
 
 # Algolia
 gems:
@@ -38,8 +38,8 @@ gems:
 
 algolia:
   application_id: 'latency'
-  index_name: 'jekyll'
-  read_only_api_key: '6be0576ff61c053d5f9a3225e2a90f76'
+  index_name: 'indGaleej'
+  read_only_api_key: '0a2ed90722eaf657219beb2d9d312cc3'
   excluded_files:
     - 404.html
     - index.html
